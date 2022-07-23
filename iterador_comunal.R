@@ -140,7 +140,7 @@ for(reg in unique(mh$NOM_REG)) {
   cod <- unique(mh_reg$COD_REG)
   
   
-  path_salida <-  paste0("resultados3/", reg,"/")
+  path_salida <-  paste0("resultados/", reg,"/")
   make_dir(path_salida)
   
   st_write(mh_reg, 
